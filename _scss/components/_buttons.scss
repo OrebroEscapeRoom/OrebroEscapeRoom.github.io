@@ -20,13 +20,13 @@
   text-align: center;
 
   &.button-focus {
-    color: $white;
+    color: $gold;
     background-color: $primary;
   }
 
   &:hover,
   &:active {
-    color: $white;
+    color: $gold;
     border-color: lighten($primary, 20%);
     background-color: lighten($primary, 20%);
   }
@@ -37,7 +37,7 @@
 .button-cta {
   display: inline-block;
   max-width: 100%;
-  color: $white;
+  color: $gold;
   border: 2px solid $white;
   padding: 1em 1.5em;
   font-size: 1.25rem;
@@ -47,18 +47,18 @@
   text-transform: uppercase;
 
   &.button-focus {
-    border-color: $primary;
-    background-color: $primary;
+    border-color: $brown;
+    background-color: $brown;
   }
 
   &.button-blue {
-    color: $primary;
-    border-color: $primary;
+    color: $brown;
+    border-color: $brown;
   }
 
   &:hover,
   &:active {
-    color: $white;
+    color: $gold;
     border-color: lighten($primary, 20%);
     background-color: lighten($primary, 20%);
   }
