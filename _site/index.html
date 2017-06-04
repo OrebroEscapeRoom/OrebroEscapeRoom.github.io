@@ -59,11 +59,16 @@
         <nav id="navMenu" class="nav-menu">
           <ul class="menu">
             <li class="current-menu-item"><a href="#home">HEM</a></li>
-            <li><a href="#rum">VÅRA RUM</a></li>
-            <li><a href="#what">VAD ÄR ESCAPE ROOM?</a></li>
-            <li><a href="#bokning">BOKNING</a></li>
-            <li><a href="#hitta">HITTA HIT</a></li>
-            <li><a href="#hitta">FAQ</a></li>
+            <li><a href="#about">VAD ÄR ESCAPE ROOM?</a></li>
+
+            <li><a href="#parallax-features">VÅRA RUM</a></li>
+
+            <li><a href="#boking">BOKNING</a></li>
+            <li><a href="#hitta-hit">HITTA HIT</a></li>
+            
+            <!-- bok<li><a href="#XXX">FAQ</a></li> -->
+
+
  <!--            <li><a href="#about">About</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
@@ -87,15 +92,15 @@
 
         <!-- Heading Title -->
         <div class="row heading-title">
-          <h2>Välkommen in, <br> kan du komma ut?</h2>
+          <h2>Örebro Escape Room</h2>
           <hr class="small">
-          <h1 class="thin">Örebro <strong>Escape Room<strong></h1>
+          <h1 class="thin">I fagerlinds tid</h1>
         </div>
 
         <!-- Header Buttons -->
         <div class="row buttons-header">
-          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a href="-länktillbokning" class="button-cta button-focus">Boka!</a></div>
-          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a href="-länktillmerinfo" class="button-cta">Jag vill veta mer...</a></div>
+          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a href="#boking" class="button-cta button-focus">Boka!</a></div>
+          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a href="#about" class="button-cta">Jag vill veta mer...</a></div>
         </div>
 
       </div>
@@ -125,7 +130,7 @@
       <h2><strong>B</strong><span class="thin">oka</span> din escaperooom uplevelse nu!</h2>
     </div>
     <div class="col-md-3 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1">
-      <a href="https://daniel.sunden.se" target="_blank" class="button-cta button-block">boka</a>
+      <a href="#boking" target="_blank" class="button-cta button-block">boka</a>
     </div>
 
   </div>
@@ -167,14 +172,16 @@
 
 
 <!-- Offer Section -->
-<section class="rum-section">
+<section class="rum-section" id="rum">
+
+
   <div class="container">
 
     <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
       <h2>våra rum</h2>
     </div>
 <!--     <div class="col-md-3 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1">
-      <a href="https://daniel.sunden.se" target="_blank" class="button-cta button-block">boka</a>
+      <a href="#boking" target="_blank" class="button-cta button-block">boka</a>
     </div> -->
 
   </div>
@@ -241,7 +248,7 @@
       <h2><strong>B</strong><span class="thin">oka</span> din escaperooom uplevelse nu!</h2>
     </div>
     <div class="col-md-3 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1">
-      <a href="https://daniel.sunden.se" target="_blank" class="button-cta button-block">boka</a>
+      <a href="#boking" target="_blank" class="button-cta button-block">boka</a>
     </div>
 
   </div>
@@ -338,7 +345,7 @@
 
 
 <!-- Contact Section -->
-<section class="site-section contact-section next-section-indicator parallax" id="contact"  data-scrollax-parent="true">
+<section class="site-section contact-section next-section-indicator parallax" id="boking"  data-scrollax-parent="true">
 
   <!-- Parallax Contact Image -->
   <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
@@ -360,6 +367,14 @@
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
         <p></p>
       </div>
+
+<!-- caspeco instert -->
+
+
+<iframe class="c36" src="https://api.caspeco.net/externalBookingClient/?publicID=8d476f6762e57e1edc20dac26ee9d3d2&amp;unitID=17&amp;fixedSize=1&amp;sectionID=9"></iframe>
+
+
+<!-- caspeco out -->
 
     </div>
 
@@ -404,6 +419,12 @@
 </section>
 
 <!-- Google Map Embed -->
+
+
+
+<section id="hitta-hit"  data-scrollax-parent="true">
+
+
 <div class="google-map">
 
   <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs"></script>
@@ -434,6 +455,7 @@
       google.maps.event.addDomListener(window, 'load', init_map);
   </script>
 
+</section>
 </div>
 
 

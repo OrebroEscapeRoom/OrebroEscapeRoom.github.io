@@ -47,13 +47,13 @@
   text-transform: uppercase;
 
   &.button-focus {
-    border-color: $brown;
-    background-color: $brown;
+    border-color: $primary;
+    background-color: $primary;
   }
 
   &.button-blue {
-    color: $brown;
-    border-color: $brown;
+    color: $primary;
+    border-color: $primary;
   }
 
   &:hover,

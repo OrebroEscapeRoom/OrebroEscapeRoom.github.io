@@ -13,13 +13,13 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
 #######################################################
 
 # This is your site title
-title: Örebro Escape Room
+title: I fagerlinds tid
 # Website language
 lang: en-US
 # Header Title
-header-title: Örebro <strong>Escape Room<strong>
+header-title: I fagerlinds tid
 # Header Tagline
-headter-tagline: Välkommen in, <br> kan du komma ut?
+headter-tagline: Örebro Escape Room
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -28,12 +28,12 @@ headter-tagline: Välkommen in, <br> kan du komma ut?
 # Focus Buttons
 header-focus-button:
   title: Boka!
-  url: -länktillbokning
+  url: '#boking'
 
 # Secondary Buttons
 header-secondary-button:
   title: Jag vill veta mer...
-  url: -länktillmerinfo
+  url: '#about'
 
 #
 # If your website is placed in a separate folder on your server please modify
@@ -55,7 +55,7 @@ email: info@örebroescaperoom.com
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://daniel.sunden.se
+banner-link: '#boking'
 
 ####################################
 ######  Global Social Links   ######
