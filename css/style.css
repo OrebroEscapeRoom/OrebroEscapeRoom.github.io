@@ -5117,6 +5117,7 @@ section.boking-section .form-container form.contact-form .form-action .send-butt
 
 section.gray-section {
   background: #f4f8f9;
+  
 }
 
 img.top-logo {
@@ -5130,7 +5131,9 @@ img.top-logo {
   margin-top: -5em;
 }
 
-
+section.about-section {
+  background: #ffffff;
+}
 
 
 /**
