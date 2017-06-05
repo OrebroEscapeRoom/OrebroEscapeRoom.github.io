@@ -3217,7 +3217,7 @@ header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li a:hov
 
 header.site-header .header-banner {
   height: -webkit-calc(100vh - 250px);
-  height: calc(100vh - 250px);
+  height: calc(100vh - 100px);
   max-height: -webkit-calc(1080px - 250px);
   max-height: calc(1080px - 250px);
   z-index: 2;
@@ -3232,6 +3232,7 @@ header.site-header .header-banner .heading-content {
 header.site-header .header-banner .heading-content .heading-title hr.small {
   margin-top: 40px;
   margin-bottom: 40px;
+  height: 600px;
 }
 
 header.site-header .header-banner .heading-content .buttons-header {
@@ -3625,7 +3626,7 @@ header.site-header .arrow-down-section .arrow-down i:before {
  **/
 section.site-section {
   padding: 100px 0;
-  background: #fff;
+  background: #ffffff;
 }
 
 section.site-section header.section-header h1, section.site-section header.section-header h2, section.site-section header.section-header h3, section.site-section header.section-header h4, section.site-section header.section-header h5, section.site-section header.section-header h6 {
@@ -4959,6 +4960,178 @@ section.contact-section .form-container form.contact-form .form-action .send-but
     width: 100%;
   }
 }
+
+/**
+ *
+ *  Rum Section Style
+ *
+ *  @package gleesik_layout
+ *
+ **/
+section.contact-section {
+  color: #f4f8f9;
+}
+
+section.rum-section header.section-header h2, section.contact-section header.section-header h3, section.contact-section header.section-header h4 {
+  color: #fff;
+}
+
+section.rum-section header.section-header hr {
+  background: #fff;
+}
+
+section.rum-section .form-container {
+  margin-top: 80px;
+}
+
+section.rum-section .form-container form.contact-form .col-md-6, section.contact-section .form-container form.contact-form .col-md-12 {
+  margin-bottom: 30px;
+}
+
+section.rum-section .form-container form.contact-form input, section.contact-section .form-container form.contact-form textarea {
+  color: #fff;
+}
+
+section.rum-section .form-container form.contact-form input:hover, section.contact-section .form-container form.contact-form input:active, section.contact-section .form-container form.contact-form textarea:hover, section.contact-section .form-container form.contact-form textarea:active {
+  color: #fff;
+  border-color: #611802;
+  background: rgba(33, 194, 248, 0.25);
+}
+
+section.rum-section .form-container form.contact-form input:hover::-webkit-input-placeholder, section.contact-section .form-container form.contact-form input:active::-webkit-input-placeholder, section.contact-section .form-container form.contact-form textarea:hover::-webkit-input-placeholder, section.contact-section .form-container form.contact-form textarea:active::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+section.rum-section .form-container form.contact-form input:hover::-moz-placeholder, section.contact-section .form-container form.contact-form input:active::-moz-placeholder, section.contact-section .form-container form.contact-form textarea:hover::-moz-placeholder, section.contact-section .form-container form.contact-form textarea:active::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+
+section.rum-section .form-container form.contact-form input:hover:-ms-input-placeholder, section.contact-section .form-container form.contact-form input:active:-ms-input-placeholder, section.contact-section .form-container form.contact-form textarea:hover:-ms-input-placeholder, section.contact-section .form-container form.contact-form textarea:active:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff;
+}
+
+section.rum-section .form-container form.contact-form input:hover:-moz-placeholder, section.contact-section .form-container form.contact-form input:active:-moz-placeholder, section.contact-section .form-container form.contact-form textarea:hover:-moz-placeholder, section.contact-section .form-container form.contact-form textarea:active:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+section.rum-section .form-container form.contact-form .form-action {
+  text-align: center;
+  padding-top: 30px;
+}
+
+section.rum-section .form-container form.contact-form .form-action .send-button {
+  text-transform: uppercase;
+  width: 40%;
+}
+
+@media (max-width: 500px) {
+  section.rum-section .form-container form.contact-form .form-action .send-button {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+
+/**
+ *
+ *  Boking Section Style
+ *
+ *  @package gleesik_layout
+ *
+ **/
+section.boking-section {
+  color: ##2c3e50;
+}
+
+section.boking-section header.section-header h2, section.contact-section header.section-header h3, section.contact-section header.section-header h4 {
+  color: ##2c3e50;
+}
+
+section.boking-section header.section-header hr {
+  background: ##2c3e50;
+}
+
+section.boking-section .form-container {
+  margin-top: 80px;
+}
+
+section.boking-section .form-container form.contact-form .col-md-6, section.contact-section .form-container form.contact-form .col-md-12 {
+  margin-bottom: 30px;
+}
+
+section.boking-section .form-container form.contact-form input, section.contact-section .form-container form.contact-form textarea {
+  color: ##2c3e50;
+}
+
+section.boking-section .form-container form.contact-form input:hover, section.contact-section .form-container form.contact-form input:active, section.contact-section .form-container form.contact-form textarea:hover, section.contact-section .form-container form.contact-form textarea:active {
+  color: ##2c3e50;
+  border-color: #611802;
+  background: rgba(33, 194, 248, 0.25);
+}
+
+section.boking-section .form-container form.contact-form input:hover::-webkit-input-placeholder, section.contact-section .form-container form.contact-form input:active::-webkit-input-placeholder, section.contact-section .form-container form.contact-form textarea:hover::-webkit-input-placeholder, section.contact-section .form-container form.contact-form textarea:active::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: ##2c3e50;
+}
+
+section.boking-section .form-container form.contact-form input:hover::-moz-placeholder, section.contact-section .form-container form.contact-form input:active::-moz-placeholder, section.contact-section .form-container form.contact-form textarea:hover::-moz-placeholder, section.contact-section .form-container form.contact-form textarea:active::-moz-placeholder {
+  /* Firefox 19+ */
+  color: ##2c3e50;
+}
+
+section.boking-section .form-container form.contact-form input:hover:-ms-input-placeholder, section.contact-section .form-container form.contact-form input:active:-ms-input-placeholder, section.contact-section .form-container form.contact-form textarea:hover:-ms-input-placeholder, section.contact-section .form-container form.contact-form textarea:active:-ms-input-placeholder {
+  /* IE 10+ */
+  color: ##2c3e50;
+}
+
+section.boking-section .form-container form.contact-form input:hover:-moz-placeholder, section.contact-section .form-container form.contact-form input:active:-moz-placeholder, section.contact-section .form-container form.contact-form textarea:hover:-moz-placeholder, section.contact-section .form-container form.contact-form textarea:active:-moz-placeholder {
+  /* Firefox 18- */
+  color: ##2c3e50;
+}
+
+section.boking-section .form-container form.contact-form .form-action {
+  text-align: center;
+  padding-top: 30px;
+}
+
+section.boking-section .form-container form.contact-form .form-action .send-button {
+  text-transform: uppercase;
+  width: 40%;
+}
+
+@media (max-width: 500px) {
+  section.boking-section .form-container form.contact-form .form-action .send-button {
+    display: block;
+    width: 100%;
+  }
+}
+
+/*gray section
+*/
+
+
+section.gray-section {
+  background: #f4f8f9;
+}
+
+img.top-logo {
+  display: initial;    
+  align-items: center;
+  max-width: 75%;
+  max-height: 350px;
+  height: 400px;
+  height: auto !important;
+  margin-bottom: 1em;
+  margin-top: -5em;
+}
+
+
+
 
 /**
  *
