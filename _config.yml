@@ -21,7 +21,7 @@ header-title: I Fagerlinds tid
 # Header Tagline
 headter-tagline: Örebro Escape Room
 
-contact-title: Boking
+contact-title: Boka Fagerlinds Testamente
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -107,9 +107,8 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Välkommen till Örebro Escape Room
-about-description: Välkomna till Makeriet och Örebro Escape Games. Ta del av ett spännande spel fyllt av mysterier, gåtor och hemliga uppdrag där ni har huvudrollen. Utmana er själva, arbeta tillsammans som ett lag och tävla mot klockan. I Makeriets anrika lokaler, som återger känslan av ett Örebro i början av 1900-talet, finner ni en annorlunda och nyskapande sorts underhållning som passar utmärkt för vännerna, familjen eller kollegorna.
-
+about-title: VÄLKOMMEN TILL FAGERLINDS TID
+about-description: Välkomna till Makeriet och Fagerlinds Tid, Örebro Escape Room.
 
 #####################################
 #############   About Escape Room  #############
@@ -118,6 +117,80 @@ about-description: Välkomna till Makeriet och Örebro Escape Games. Ta del av e
 
 about-escape-title: VAD ÄR ESCAPE ROOM?
 about-escape-description: Escape Room är en lagbaserad utmaning för 2 till 6 spelare. Gruppen blir ”inlåst” i ett rum där det primära målet är att ta sig ut. <br> <br> Speltiden är 60 minuter och med hjälp av ledtrådar dolda runt omkring i rummet och dess inredning ska gruppen lösa en serie av gåtor, kluriga pussel och knäcka koder för att ta sig vidare i spelet. <br> <br> Escape Room är en spännande och rolig underhållning som passar de flesta och är perfekt utformad för möhippan, svensexan eller företagets kickoff / teambuilding. För större grupper kontakta oss så hjälper vi er att skräddarsy den perfekta upplevelsen för just er.
+
+
+
+#####################################
+#############   FAQ Escape Room  #############
+#####################################
+
+
+faq-title: FAQ
+faq-description: 
+
+
+
+
+
+#####################################
+#############   Hitta Escape Room  #############
+#####################################
+
+hitta-title: Hitta Hit
+hitta-description: Kungsgatan 3, Örebro <br> <br> Vi delar lokaler med restaurangen Makeriet och ni finner Fagerlinds Tid på andra våning. Entré via någon av Makeriets ingångar och i avdelningen Brasseriet, glashuset, finner ni trappan upp till oss. Tveka inte att fråga någon av Makeriets personal, de hjälper er så gärna att hitta rätt.
+
+
+
+
+# "Vilka öppettider har ni?
+# Vårt tidigaste rum går att boka klockan 10:00 och de senaste 22:00.
+# Vi har totalt 10 möjliga speltillfällen per dygn. All bokning sker via vår hemsida.
+# Restaurangens öppettider hittar ni här.
+
+# Vad kostar ett spel?
+# Det beror på storleken på er grupp.
+# 2 personer – 350:- per person
+# 3 personer – 295:- per person
+# 4 personer – 275:- per person
+# 5 personer – 250:- per person
+# 6 personer – 225:- per person
+
+# Vart ligger Örebro Escape Room?
+# Vår adress är Kungsgatan 3 i Örebro,
+# vi delar lokal med restaurangen Makeriet.
+
+# Behöver jag vara jättesmart, stark, smidig och duktig på matematik för att spela?
+# Nej. Det handlar om att kunna arbeta som lag och problemlösning. Det är inga svåra uträkningar som behövs göras eller IQ-tester. Inga pussel kräver att du kan klättra eller lyfta tungt eller dyl.
+
+# Blir vi inlåsta på riktigt?
+# Nej, dörren ut är alltid olåst och ni kan välja att lämna när ni vill.
+# När ska vi vara på plats och vad händer om vi kommer sent?
+# Var på plats 10-15 minuter innan bokad tid för genomgång av regler och rummet. Om ni anländer sent dras det på er speltid.
+
+# Kommer vi tävla mot varandra?
+# Nej, en stor del av nöjet med Escape Rooms är att man sammarbetar och jobbar som ett lag. Däremot kan ni komma i två lag och tävla mot varandra om vilka som klarar av ett rum på så kort tid så möjligt.
+
+# Vad händer om vi inte löser rummet i tid?
+# Efter 60 minuter är spelet slut, är ni fortfarande kvar i rummet släpps ni ut.
+
+# Får vi ta med alkohol?
+# Nej, på grund av alkoholtillståndet restaurangen har är det inte tillåtet att dricka medhavd alkohol. Men Makeriets bar går fint att besöka både före och efter ni spelat.
+
+# Har ni någon åldergräns?
+# För att spela våra rum ska du vara minst 18 år, eller 16 i vuxet sällskap.
+
+# Hur betalar vi?
+# Betalning sket på plats innan spelet börjar, vi tar bara emot kortbetalning.
+
+# Går det att köpa presentkort hos er?
+# Absolut! Du köper presentkortet på plats hos oss och väljer själv värdet.
+
+# Får vi filma och fotografera i rummet när vi spelar?
+# Nej. Vi vill behålla mystiken för andra som vill spela hos oss.
+
+# Läs mer på Wikipedia.
+# https://en.wikipedia.org/wiki/Escape_room"
+
 
 
 
@@ -152,12 +225,11 @@ features:
 #####################################
 ##########  Core Features  ##########
 #####################################
-core-title: Rum 1 - Fabrikant Johan Fagerlind
+core-title: Spel 1 - Fagerlinsd Testamente
 core-description: Det är den 19e mars,1924, och den fruktansvärda nyheten att Johan Fagerlind nyligen omkommit i en brand i sin skofabrik har nått hans tidigare kollega grosshandlare C.A. Carlsson. Fagerlind var skyldig Carlsson stora summor pengar och därför har grosshandlaren nu anställt er för att bryta er in i Johan Fagerlinds kontor och där leta upp hans kassaskåp och tömma det. Men skynda er på för stadens konstapel är också på väg dit och blir ni gripna är utebliven betalning för jobbet ert minsta problem.
 
-core-title-2: Rum 2 - Major Cederströms vinkällare.
-core-description-2: Spionage för Sovjetunionen. I3 örebro Livregementets grenadjärer. Första världskriget 1914 – 1918. Året är 1917 och Europa står i lågor medan världskriget rasar på. <br> <br><br><br>Kommer snart...
-
+core-title-2: Spel 2 - Major Cederströms vinkällare.
+core-description-2: Öppnar snart
 
 
 
@@ -165,6 +237,6 @@ core-description-2: Spionage för Sovjetunionen. I3 örebro Livregementets grena
 #############   Footer   ############
 #####################################
 footer-description: I Fagerlinds tid är skapad av Joche Inc.
-footer-copyright-text: Joachim Niklasson
+footer-copyright-text: Daniel Sundén 
 footer-copyright-url: http://daniel.sunden.se
 footer-copyright-year: 2017
