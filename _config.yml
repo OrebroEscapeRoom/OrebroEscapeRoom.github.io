@@ -6,6 +6,11 @@
 # Information for compile
 exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
 
+#redirect url
+
+
+
+
 #######################################################
 #######################################################
 ###############   HEADER INFORMATIONS   ###############
