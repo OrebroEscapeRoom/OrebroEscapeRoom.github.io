@@ -2889,7 +2889,9 @@ h3 {
 }
 
 h4 {
-  font-size: 1.15rem;
+  font-size: 1.20rem;
+  color: black;
+  font-weight: bold;
 }
 
 h5 {
