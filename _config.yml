@@ -24,7 +24,7 @@ lang: en-US
 # Header Title
 header-title: I Fagerlinds tid
 # Header Tagline
-headter-tagline: Örebro Escape Room
+headter-tagline: I Fagerlinds tid
 
 contact-title: Boka Fagerlinds Testamente
 
@@ -58,7 +58,7 @@ baseurl:
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: info@örebroescaperoom.com
+email: info@fagerlindstid.se
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
