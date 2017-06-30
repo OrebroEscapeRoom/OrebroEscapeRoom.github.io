@@ -2796,6 +2796,8 @@ ul.tag-cloud-box li a:hover {
   margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .button-cta.button-focus {

@@ -2796,6 +2796,8 @@ ul.tag-cloud-box li a:hover {
   margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .button-cta.button-focus {
@@ -2832,7 +2834,6 @@ body {
   font-family: "Old Standard TT", serif;
   font-size: 16px;
   font-weight: normal;
-/*  letter-spacing: 0.08rem;*/
   color: #5e5e5e;
   background-color: #fff;
 }
@@ -3035,12 +3036,14 @@ blockquote:before {
 
 .page-loader .load-icon {
   display: block;
-  position: absolute;
+  position: relative;
   width: 70px;
   height: 70px;
   top: 50%;
   left: 50%;
-  margin: -35px 0 0 -35px;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .page-loader .load-icon:before, .page-loader .load-icon:after {
@@ -3336,7 +3339,7 @@ header.site-header .arrow-down-section .arrow-down i:before {
     max-height: calc(1080px - 190px);
   }
   header.site-header .header-banner .heading-content {
-    padding: 0 20px;
+    padding: 0 40px;
   }
   header.site-header .header-banner .heading-content .heading-title hr.small {
     margin-top: 15px;
@@ -5201,9 +5204,4 @@ footer.site-footer .footer-copyright .footer-text {
   height: 100%;
   top: 0;
   left: 0;
-}
-
-header .button-cta:not(.button-focus) {
-  padding-left: 0;
-  padding-right: 0;
 }
