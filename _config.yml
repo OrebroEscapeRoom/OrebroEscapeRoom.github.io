@@ -67,12 +67,14 @@ banner-link: '#boking'
 ####################################
 ######  Global Social Links   ######
 ####################################
-youtube: '#'
-pinterest: '#'
-facebook: '#'
+
+facebook: 'https://www.facebook.com/FagerlindsTid/'
+tripadvisor: 'https://www.tripadvisor.se/Attraction_Review-g189861-d12539359-Reviews-Orebro_Escape_Room-Orebro_Orebro_County.html'
 twitter: '#'
 google-plus: '#'
 vimeo: '#'
+youtube: '#'
+pinterest: '#'
 
 #########################
 ######   Widgets   ######
