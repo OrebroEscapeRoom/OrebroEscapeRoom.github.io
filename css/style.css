@@ -2816,7 +2816,10 @@ ul.tag-cloud-box li a:hover {
   background-color: #C79359;
 }
 
-button.button-block,
+
+
+
+section.boking-section.button.button-block,
 .button.button-block,
 .button-cta.button-block {
   display: block;
@@ -5049,6 +5052,27 @@ section.rum-section .form-container form.contact-form .form-action .send-button 
  *  @package gleesik_layout
  *
  **/
+
+
+/*Mobile and Desktop Caspeco Windows*/
+
+@media all and (max-width: 720px) {
+.caspeco-show {
+    display: none;
+  }
+}
+
+@media all and (min-width: 720px) {
+.caspeco-show-2 {
+    display: none;
+  }
+}
+
+
+/**/
+
+
+
 section.boking-section {
   color: ##2c3e50;
 }
