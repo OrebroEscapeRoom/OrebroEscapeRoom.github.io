@@ -259,10 +259,12 @@ features:
 ##########  Core Features  ##########
 #####################################
 core-title: Spel 1 - Fagerlinds Testamente
-core-description: Det är den 19e mars 1924, och den fruktansvärda nyheten att Johan Fagerlind nyligen omkommit i en brand i sin skofabrik har nått hans tidigare kollega grosshandlare C.A. Carlsson. Fagerlind var skyldig Carlsson stora summor pengar och därför har grosshandlaren nu anställt er för att bryta er in i Johan Fagerlinds kontor och där leta upp hans kassaskåp och tömma det. Men skynda er på för stadens konstapel är också på väg dit och blir ni gripna är utebliven betalning för jobbet ert minsta problem.
+core-description: Tillfälligt stängt för renovering.
+
+# Det är den 19e mars 1924, och den fruktansvärda nyheten att Johan Fagerlind nyligen omkommit i en brand i sin skofabrik har nått hans tidigare kollega grosshandlare C.A. Carlsson. Fagerlind var skyldig Carlsson stora summor pengar och därför har grosshandlaren nu anställt er för att bryta er in i Johan Fagerlinds kontor och där leta upp hans kassaskåp och tömma det. Men skynda er på för stadens konstapel är också på väg dit och blir ni gripna är utebliven betalning för jobbet ert minsta problem.
 
 core-title-2: Spel 2 - Major Cederströms vinkällare.
-core-description-2: Öppnar snart
+core-description-2: "Ett tåg står på perrongen. Ombord sitter en delegation med svenska befäl på väg till ryska gränsen. Ett av befälen misstänks vara en rysk spion och har under stora delar av kriget försett Ryssland med information. Ni har lyckats lokalisera spionens hemliga överlämningsplats och där hoppas ni kunna finna information om vem spionen är. Men skynda er: tåget avgår snart och efter det har ni mist er chans att gripa landsförrädaren."
 
 
 
