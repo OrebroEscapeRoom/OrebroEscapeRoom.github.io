@@ -2842,6 +2842,15 @@ body {
   background-color: #fff;
 }
 
+body .foretag {
+  font-family: "Old Standard TT", serif;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.08rem;
+  color: #ffffff;
+  background-color: #fff;
+}
+
 body .site-header .container:before {
   content: '';
   display: block;
