@@ -3256,6 +3256,10 @@ header.site-header .header-banner .heading-content .buttons-header {
   margin-top: 40px;
 }
 
+.buttons-header-small {
+  margin-top: 20px !important;
+}
+
 header.site-header .header-banner .heading-content .buttons-header .button-cta {
   width: 100%;
 }

@@ -74,7 +74,32 @@
         </div>
 
         <!-- Header Buttons -->
+        {% if site.data.banner.tempMessage.show == true %}
+        <style>
+          .temp-button:hover, .temp-button:active, temp-button:hover, temp-button:active {
+  color: #fff;
+  border-color: #C79359;
+  background-color: #C79359;
+}
+
+
+.button-cta.temp-button-focus {
+  border-color: {{ site.data.banner.tempMessage.bgColor }};
+  background-color: {{ site.data.banner.tempMessage.bgColor }};
+  color: {{ site.data.banner.tempMessage.txtColor }};
+  line-height: 35px;
+}
+        </style>
         <div class="row buttons-header">
+
+          {% if site.data.banner.tempMessage.showLink == true %}
+            <div class="col-lg-6 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a href="{{ site.data.banner.tempMessage.link }}" class="button-cta temp-button-focus">{{ site.data.banner.tempMessage.title }}</a></div>
+          {% else %}
+            <div class="col-lg-6 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><div class="button-cta temp-button-focus">{{ site.data.banner.tempMessage.title }}</div></div>
+          {% endif %}
+        </div>
+        {% endif %}
+        <div class="row buttons-header buttons-header-small">
           <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a href="{{ site.header-focus-button.url }}" class="button-cta button-focus">{{ site.header-focus-button.title }}</a></div>
           <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a href="{{ site.header-secondary-button.url }}" class="button-cta">{{ site.header-secondary-button.title }}</a></div>
         </div>

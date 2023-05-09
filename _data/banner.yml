@@ -1,0 +1,10 @@
+  
+  
+# Temp text
+tempMessage:
+  show: false
+  title: Regn på lördag? Kom till oss
+  bgColor: '#611802'
+  txtColor: 'white'
+  showLink: false
+  link: 'https://thealley.se'
