@@ -10,6 +10,17 @@
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
         <h2>{{ site.contact-title }}</h2>
         <hr class="normal">
+        {% if site.data.banner.tempMessage.show == true %}
+          <h3>{{ site.data.banner.tempText.title }}</h3>
+          <hr>
+          <p>{{ site.data.banner.tempText.line1 }}</p>
+          <p>{{ site.data.banner.tempText.line2 }}</p>
+          <p>{{ site.data.banner.tempText.line3 }}</p>
+          <p>{{ site.data.banner.tempText.line4 }}</p>
+        {% endif %}
+
+        
+
       </header>
 
       <!-- Section Content -->
