@@ -2,7 +2,7 @@
   
 # Temp text
 tempMessage:
-  show: true
+  show: false
   title: AVVIKANDE ÖPPETTIDER
   bgColor: '#194710'
   txtColor: 'white'
